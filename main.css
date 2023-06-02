@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar {
+    background-color: brown;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: brown;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-item,
+.nav-atividades .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+#sobre-a-escola, #atividades {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: brown;
+}
+
+.nav-atividades .nav-link.active,
+#fale-conosco button {
+    background-color: brown;
+    color: #fff;
+}
+
+button{
+    background-color: brown;
+    color: #fff;
+    border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.nav-atividades .nav-link:hover {
+    color: brown;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 120px;
+    margin-right: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    background-color: brown;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ffeae6;
+}
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}

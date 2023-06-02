@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Nome da escola</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+            <ul class="nav nav-pills d-block d-md-flex">
+                <li class="nav-item fw-bold">
+                    <a href="#sobre-a-escola" class="nav-link">
+                    <i class="bi bi-houses-fill me-1"></i>
+                    Sobre a escola
+                </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#segmentos" class="nav-link">
+                    <i class="bi bi-journal me-1"></i>
+                    Segmentos
+                </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#atividades" class="nav-link">
+                    <i class="bi bi-journals me-1"></i>
+                    Atividades escolares
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#fale-conosco" class="nav-link">
+                    <i class="bi bi-chat-left-text me-1"></i>
+                    Fale conosco
+                </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="container">
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-escola">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imagens/Carousel/aluna.jpg" alt="Foto de uma aluna">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/Carousel/alunos.jpg" alt="Foto de alunos">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/Carousel/professora.jpg" alt="Professora com alunos">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col md-5">
+                            <img src="./imagens/auditorio.jpg" class="d-block w-100 rounded" alt="Foto do auditorio">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">a escola</span></h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corrupti cum distinctio libero iusto nobis est eligendi neque hic dignissimos voluptate explicabo ipsum, culpa earum doloribus, molestiae error necessitatibus voluptatibus?
+                        </p>
+                        <h3 class="section-title">Sobre <span class="text-colored">o espaço estudantil</span></h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto a odit quam magnam quibusdam, tempora eaque ipsam, excepturi ipsum corrupti dicta, maxime minima quas. Expedita aut libero blanditiis sequi hic?
+                        </p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="segmentos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as idades</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/cursos/ensino/infantil.jpg" alt="" class="d-block w-100 rounded mb-2 rounded">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-book"></i>
+                            Ensino Infantil
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ex natus delectus sequi, doloribus blanditiis ab! Voluptate, voluptatem non molestias atque possimus exercitationem fugiat in libero doloribus ad, consequatur illo.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/cursos/ensino/fundamental.jpeg" alt="" class="d-block w-100 rounded mb-2 rounded">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-book-half"></i>
+                            Ensino Fundamental
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ex natus delectus sequi, doloribus blanditiis ab! Voluptate, voluptatem non molestias atque possimus exercitationem fugiat in libero doloribus ad, consequatur illo.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/cursos/ensino/medio.jpg" alt="" class="d-block w-100 rounded mb-2 rounded">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-book-fill"></i>
+                            Ensino Médio
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ex natus delectus sequi, doloribus blanditiis ab! Voluptate, voluptatem non molestias atque possimus exercitationem fugiat in libero doloribus ad, consequatur illo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="atividades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Atividades <span class="text-colored">educacionais</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-atividades">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#idiomas" class="fw-bold text-start nav-link text-colored active">Idiomas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#artes-marciais" class="fw-bold text-start nav-link text-colored">Artes Marciais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#esportes" class="fw-bold text-start nav-link text-colored">Esportes</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="idiomas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/cursos/idiomas/ingles.jpg" alt="Aula de inglês">
+                                        <h5 class="text-colored fw-bold mt-2">Aula de inglês</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/cursos/idiomas/espanhol.jpg" alt="Aula de espanhol">
+                                        <h5 class="text-colored fw-bold mt-2">Aula de espanhol</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="artes-marciais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/cursos/artes marciais/Jiu-jitsu.jpg" alt="Jiu Jitsu">
+                                        <h5 class="text-colored fw-bold mt-2">Jiu Jitsu</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/cursos/artes marciais/boxe.jpg" alt="Boxe">
+                                        <h5 class="text-colored fw-bold mt-2">Boxe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="esportes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/cursos/esportes/futebol.jpg" alt="Futebol">
+                                        <h5 class="text-colored fw-bold mt-2">Futebol</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./imagens/cursos/esportes/natacao.jpg" alt="Natacao">
+                                        <h5 class="text-colored fw-bold mt-2">Natação</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored"></label>
+                                <input type="text" id="nome" class="form-control" placeholder="Seu nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored"></label>
+                                <input type="email" id="email" class="form-control" placeholder="Seu e-mail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored"></label>
+                                <input type="tel" id="telefone" class="form-control" placeholder="Seu telefone (opcional)">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored"></label>
+                                <textarea class="form-control" id="mensagem" placeholder="Sua mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-youtube text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
